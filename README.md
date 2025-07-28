@@ -19,11 +19,12 @@ This project allows users to query large unstructured documents (PDFs such as co
 ## 📦 Requirements
 
 Make sure you have **Python 3.9+**
+Make sure you have **ollama and mistral**
+Also make a folder named data to store all your pdfs 
 
 Install dependencies:
 
 ```bash
 pip install -U langchain langchain-community openai sentence-transformers faiss-cpu
 
-# Note - Make sure you create a data folder and keep your pdfs inside that
-Also make sure you have ollama and mistral
+
